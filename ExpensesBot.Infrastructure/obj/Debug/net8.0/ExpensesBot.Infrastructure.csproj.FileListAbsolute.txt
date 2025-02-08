@@ -1,0 +1,15 @@
+/home/ildar/Documents/telegram/ExpensesBot.Infrastructure/bin/Debug/net8.0/ExpensesBot.Infrastructure.deps.json
+/home/ildar/Documents/telegram/ExpensesBot.Infrastructure/bin/Debug/net8.0/ExpensesBot.Infrastructure.dll
+/home/ildar/Documents/telegram/ExpensesBot.Infrastructure/bin/Debug/net8.0/ExpensesBot.Infrastructure.pdb
+/home/ildar/Documents/telegram/ExpensesBot.Infrastructure/bin/Debug/net8.0/ExpensesBot.Core.dll
+/home/ildar/Documents/telegram/ExpensesBot.Infrastructure/bin/Debug/net8.0/ExpensesBot.Core.pdb
+/home/ildar/Documents/telegram/ExpensesBot.Infrastructure/obj/Debug/net8.0/ExpensesBot.Infrastructure.csproj.AssemblyReference.cache
+/home/ildar/Documents/telegram/ExpensesBot.Infrastructure/obj/Debug/net8.0/ExpensesBot.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/ildar/Documents/telegram/ExpensesBot.Infrastructure/obj/Debug/net8.0/ExpensesBot.Infrastructure.AssemblyInfoInputs.cache
+/home/ildar/Documents/telegram/ExpensesBot.Infrastructure/obj/Debug/net8.0/ExpensesBot.Infrastructure.AssemblyInfo.cs
+/home/ildar/Documents/telegram/ExpensesBot.Infrastructure/obj/Debug/net8.0/ExpensesBot.Infrastructure.csproj.CoreCompileInputs.cache
+/home/ildar/Documents/telegram/ExpensesBot.Infrastructure/obj/Debug/net8.0/ExpensesBot.Infrastructure.csproj.CopyComplete
+/home/ildar/Documents/telegram/ExpensesBot.Infrastructure/obj/Debug/net8.0/ExpensesBot.Infrastructure.dll
+/home/ildar/Documents/telegram/ExpensesBot.Infrastructure/obj/Debug/net8.0/refint/ExpensesBot.Infrastructure.dll
+/home/ildar/Documents/telegram/ExpensesBot.Infrastructure/obj/Debug/net8.0/ExpensesBot.Infrastructure.pdb
+/home/ildar/Documents/telegram/ExpensesBot.Infrastructure/obj/Debug/net8.0/ref/ExpensesBot.Infrastructure.dll

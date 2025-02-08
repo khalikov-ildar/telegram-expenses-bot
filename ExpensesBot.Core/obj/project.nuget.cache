@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "skDVViq7BhQ=",
+  "success": true,
+  "projectFilePath": "/home/ildar/Documents/telegram/ExpensesBot.Core/ExpensesBot.Core.csproj",
+  "expectedPackageFiles": [
+    "/home/ildar/.nuget/packages/erroror/2.0.1/erroror.2.0.1.nupkg.sha512",
+    "/home/ildar/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.2/microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

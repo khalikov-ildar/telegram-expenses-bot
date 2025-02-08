@@ -1,0 +1,1174 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "/home/ildar/Documents/telegram",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2025-02-05 19:26:58",
+            "filesum": 173,
+            "codesum": 5711,
+            "commentsum": 38,
+            "blanksum": 355,
+            "statistics": {
+                ".json": {
+                    "code": 3931,
+                    "comment": 0,
+                    "blank": 86
+                },
+                ".csproj": {
+                    "code": 50,
+                    "comment": 0,
+                    "blank": 12
+                },
+                ".targets": {
+                    "code": 12,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".props": {
+                    "code": 45,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".info": {
+                    "code": 6,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".cs": {
+                    "code": 1167,
+                    "comment": 38,
+                    "blank": 254
+                },
+                ".cache": {
+                    "code": 77,
+                    "comment": 0,
+                    "blank": 3
+                },
+                ".sln": {
+                    "code": 34,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".xml": {
+                    "code": 254,
+                    "comment": 0,
+                    "blank": 0
+                },
+                "": {
+                    "code": 27,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".editorconfig": {
+                    "code": 39,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".txt": {
+                    "code": 64,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".user": {
+                    "code": 5,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".CopyComplete": {
+                    "code": 0,
+                    "comment": 0,
+                    "blank": 0
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": ".idea/.gitignore"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": ".idea/.idea.ExpensesBot/.idea/.gitignore"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".idea/.idea.ExpensesBot/.idea/.name"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": ".idea/.idea.ExpensesBot/.idea/encodings.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": ".idea/.idea.ExpensesBot/.idea/indexLayout.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": ".idea/.idea.ExpensesBot/.idea/projectSettingsUpdater.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": ".idea/.idea.ExpensesBot/.idea/vcs.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 95,
+                    "comment": 0,
+                    "filename": ".idea/.idea.ExpensesBot/.idea/workspace.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": ".idea/encodings.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": ".idea/indexLayout.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": ".idea/projectSettingsUpdater.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": ".idea/vcs.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 113,
+                    "comment": 0,
+                    "filename": ".idea/workspace.xml"
+                },
+                {
+                    "blank": 1,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Api/Abstract/IReceiverService.cs"
+                },
+                {
+                    "blank": 4,
+                    "code": 30,
+                    "comment": 4,
+                    "filename": "ExpensesBot.Api/Abstract/PollingServiceBase.cs"
+                },
+                {
+                    "blank": 4,
+                    "code": 18,
+                    "comment": 1,
+                    "filename": "ExpensesBot.Api/Abstract/ReceiverServiceBase.cs"
+                },
+                {
+                    "blank": 0,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Api/appsettings.Development.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Api/appsettings.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Api/bin/Debug/net8.0/appsettings.Development.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Api/bin/Debug/net8.0/appsettings.json"
+                },
+                {
+                    "filename": "ExpensesBot.Api/bin/Debug/net8.0/EPPlus.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ExpensesBot.Api/bin/Debug/net8.0/EPPlus.Interfaces.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ExpensesBot.Api/bin/Debug/net8.0/EPPlus.System.Drawing.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ExpensesBot.Api/bin/Debug/net8.0/ErrorOr.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ExpensesBot.Api/bin/Debug/net8.0/ExpensesBot.Api",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 435,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Api/bin/Debug/net8.0/ExpensesBot.Api.deps.json"
+                },
+                {
+                    "filename": "ExpensesBot.Api/bin/Debug/net8.0/ExpensesBot.Api.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ExpensesBot.Api/bin/Debug/net8.0/ExpensesBot.Api.pdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Api/bin/Debug/net8.0/ExpensesBot.Api.runtimeconfig.json"
+                },
+                {
+                    "filename": "ExpensesBot.Api/bin/Debug/net8.0/ExpensesBot.Core.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ExpensesBot.Api/bin/Debug/net8.0/ExpensesBot.Core.pdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ExpensesBot.Api/bin/Debug/net8.0/ExpensesBot.Infrastructure.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ExpensesBot.Api/bin/Debug/net8.0/ExpensesBot.Infrastructure.pdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ExpensesBot.Api/bin/Debug/net8.0/Microsoft.Extensions.Configuration.FileExtensions.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ExpensesBot.Api/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Json.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ExpensesBot.Api/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ExpensesBot.Api/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ExpensesBot.Api/bin/Debug/net8.0/Microsoft.IO.RecyclableMemoryStream.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ExpensesBot.Api/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ExpensesBot.Api/bin/Debug/net8.0/runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ExpensesBot.Api/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ExpensesBot.Api/bin/Debug/net8.0/System.Drawing.Common.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ExpensesBot.Api/bin/Debug/net8.0/System.Security.Cryptography.Pkcs.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ExpensesBot.Api/bin/Debug/net8.0/Telegram.Bot.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Api/BotConfiguration.cs"
+                },
+                {
+                    "blank": 5,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Api/ExpensesBot.Api.csproj"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "ExpensesBot.Api/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs"
+                },
+                {
+                    "filename": "ExpensesBot.Api/obj/Debug/net8.0/apphost",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 4,
+                    "code": 9,
+                    "comment": 9,
+                    "filename": "ExpensesBot.Api/obj/Debug/net8.0/ExpensesBot.Api.AssemblyInfo.cs"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Api/obj/Debug/net8.0/ExpensesBot.Api.AssemblyInfoInputs.cache"
+                },
+                {
+                    "filename": "ExpensesBot.Api/obj/Debug/net8.0/ExpensesBot.Api.assets.cache",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ExpensesBot.Api/obj/Debug/net8.0/ExpensesBot.Api.csproj.AssemblyReference.cache",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Api/obj/Debug/net8.0/ExpensesBot.Api.csproj.CopyComplete"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Api/obj/Debug/net8.0/ExpensesBot.Api.csproj.CoreCompileInputs.cache"
+                },
+                {
+                    "blank": 0,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Api/obj/Debug/net8.0/ExpensesBot.Api.csproj.FileListAbsolute.txt"
+                },
+                {
+                    "filename": "ExpensesBot.Api/obj/Debug/net8.0/ExpensesBot.Api.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Api/obj/Debug/net8.0/ExpensesBot.Api.GeneratedMSBuildEditorConfig.editorconfig"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Api/obj/Debug/net8.0/ExpensesBot.Api.genruntimeconfig.cache"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 1,
+                    "filename": "ExpensesBot.Api/obj/Debug/net8.0/ExpensesBot.Api.GlobalUsings.g.cs"
+                },
+                {
+                    "filename": "ExpensesBot.Api/obj/Debug/net8.0/ExpensesBot.Api.pdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ExpensesBot.Api/obj/Debug/net8.0/ref/ExpensesBot.Api.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ExpensesBot.Api/obj/Debug/net8.0/refint/ExpensesBot.Api.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 12,
+                    "code": 193,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Api/obj/ExpensesBot.Api.csproj.nuget.dgspec.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Api/obj/ExpensesBot.Api.csproj.nuget.g.props"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Api/obj/ExpensesBot.Api.csproj.nuget.g.targets"
+                },
+                {
+                    "blank": 31,
+                    "code": 1414,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Api/obj/project.assets.json"
+                },
+                {
+                    "blank": 1,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Api/obj/project.nuget.cache"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Api/obj/project.packagespec.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Api/obj/rider.project.model.nuget.info"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Api/obj/rider.project.restore.info"
+                },
+                {
+                    "blank": 5,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Api/Program.cs"
+                },
+                {
+                    "blank": 9,
+                    "code": 47,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Api/Services/Handlers/CallbackHandler.cs"
+                },
+                {
+                    "blank": 28,
+                    "code": 135,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Api/Services/Handlers/MessageHandler.cs"
+                },
+                {
+                    "blank": 8,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Api/Services/Helpers/MessageExtractor.cs"
+                },
+                {
+                    "blank": 2,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Api/Services/PollingService.cs"
+                },
+                {
+                    "blank": 2,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Api/Services/ReceiverService.cs"
+                },
+                {
+                    "blank": 11,
+                    "code": 66,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Api/Services/UpdateHandler.cs"
+                },
+                {
+                    "blank": 6,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/BalanceReport.cs"
+                },
+                {
+                    "blank": 0,
+                    "code": 57,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/bin/Debug/net8.0/ExpensesBot.Core.deps.json"
+                },
+                {
+                    "filename": "ExpensesBot.Core/bin/Debug/net8.0/ExpensesBot.Core.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ExpensesBot.Core/bin/Debug/net8.0/ExpensesBot.Core.pdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 2,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/DIExtension.cs"
+                },
+                {
+                    "blank": 2,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/Dtos/BalanceReportRequest.cs"
+                },
+                {
+                    "blank": 4,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/Entities/BalanceChange.cs"
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/Entities/User.cs"
+                },
+                {
+                    "blank": 1,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/Enums/BalanceChangeKinds.cs"
+                },
+                {
+                    "blank": 1,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/Enums/Languages.cs"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/Enums/ReportExportTypes.cs"
+                },
+                {
+                    "blank": 7,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/Errors/Amount/AmountErrors.cs"
+                },
+                {
+                    "blank": 3,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/Errors/Amount/AmountErrorsEn.cs"
+                },
+                {
+                    "blank": 3,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/Errors/Amount/AmountErrorsRu.cs"
+                },
+                {
+                    "blank": 5,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/Errors/Balance/BalanceErrors.cs"
+                },
+                {
+                    "blank": 2,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/Errors/Balance/BalanceErrorsEn.cs"
+                },
+                {
+                    "blank": 2,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/Errors/Balance/BalanceErrorsRu.cs"
+                },
+                {
+                    "blank": 3,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/Errors/BalanceReport/BalanceReportErrors.cs"
+                },
+                {
+                    "blank": 6,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/Errors/DateRange/DateRangeErrors.cs"
+                },
+                {
+                    "blank": 4,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/Errors/DateRange/DateRangeErrorsEn.cs"
+                },
+                {
+                    "blank": 4,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/Errors/DateRange/DateRangeErrorsRu.cs"
+                },
+                {
+                    "blank": 5,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/Errors/User/UserErrors.cs"
+                },
+                {
+                    "blank": 2,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/Errors/User/UserErrorsEn.cs"
+                },
+                {
+                    "blank": 2,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/Errors/User/UserErrorsRu.cs"
+                },
+                {
+                    "blank": 3,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/ExpensesBot.Core.csproj"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "ExpensesBot.Core/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs"
+                },
+                {
+                    "blank": 4,
+                    "code": 9,
+                    "comment": 9,
+                    "filename": "ExpensesBot.Core/obj/Debug/net8.0/ExpensesBot.Core.AssemblyInfo.cs"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/obj/Debug/net8.0/ExpensesBot.Core.AssemblyInfoInputs.cache"
+                },
+                {
+                    "filename": "ExpensesBot.Core/obj/Debug/net8.0/ExpensesBot.Core.assets.cache",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ExpensesBot.Core/obj/Debug/net8.0/ExpensesBot.Core.csproj.AssemblyReference.cache",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/obj/Debug/net8.0/ExpensesBot.Core.csproj.CoreCompileInputs.cache"
+                },
+                {
+                    "blank": 0,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/obj/Debug/net8.0/ExpensesBot.Core.csproj.FileListAbsolute.txt"
+                },
+                {
+                    "filename": "ExpensesBot.Core/obj/Debug/net8.0/ExpensesBot.Core.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/obj/Debug/net8.0/ExpensesBot.Core.GeneratedMSBuildEditorConfig.editorconfig"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 1,
+                    "filename": "ExpensesBot.Core/obj/Debug/net8.0/ExpensesBot.Core.GlobalUsings.g.cs"
+                },
+                {
+                    "filename": "ExpensesBot.Core/obj/Debug/net8.0/ExpensesBot.Core.pdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ExpensesBot.Core/obj/Debug/net8.0/ref/ExpensesBot.Core.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ExpensesBot.Core/obj/Debug/net8.0/refint/ExpensesBot.Core.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 4,
+                    "code": 67,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/obj/ExpensesBot.Core.csproj.nuget.dgspec.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/obj/ExpensesBot.Core.csproj.nuget.g.props"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/obj/ExpensesBot.Core.csproj.nuget.g.targets"
+                },
+                {
+                    "blank": 7,
+                    "code": 152,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/obj/project.assets.json"
+                },
+                {
+                    "blank": 1,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/obj/project.nuget.cache"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/obj/project.packagespec.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/obj/rider.project.model.nuget.info"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/obj/rider.project.restore.info"
+                },
+                {
+                    "blank": 2,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/Repositories/IBalanceChangeRepository.cs"
+                },
+                {
+                    "blank": 2,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/Repositories/IBalanceReportRequestRepository.cs"
+                },
+                {
+                    "blank": 3,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/Repositories/IUserRepository.cs"
+                },
+                {
+                    "blank": 4,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/ResultConverter.cs"
+                },
+                {
+                    "blank": 6,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/Services/BalanceReportService.cs"
+                },
+                {
+                    "blank": 18,
+                    "code": 80,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/Services/BalanceService.cs"
+                },
+                {
+                    "blank": 2,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/Services/IBalanceReportService.cs"
+                },
+                {
+                    "blank": 2,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/Services/IBalanceService.cs"
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/Services/IReportDataExporter.cs"
+                },
+                {
+                    "blank": 1,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/Services/IUserService.cs"
+                },
+                {
+                    "blank": 4,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/Services/UserService.cs"
+                },
+                {
+                    "blank": 7,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Core/ValueObjects/DateRange.cs"
+                },
+                {
+                    "filename": "ExpensesBot.Infrastructure/bin/Debug/net8.0/ExpensesBot.Core.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ExpensesBot.Infrastructure/bin/Debug/net8.0/ExpensesBot.Core.pdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 372,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Infrastructure/bin/Debug/net8.0/ExpensesBot.Infrastructure.deps.json"
+                },
+                {
+                    "filename": "ExpensesBot.Infrastructure/bin/Debug/net8.0/ExpensesBot.Infrastructure.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ExpensesBot.Infrastructure/bin/Debug/net8.0/ExpensesBot.Infrastructure.pdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 2,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Infrastructure/DIExtension.cs"
+                },
+                {
+                    "blank": 4,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Infrastructure/ExpensesBot.Infrastructure.csproj"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "ExpensesBot.Infrastructure/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs"
+                },
+                {
+                    "blank": 4,
+                    "code": 9,
+                    "comment": 9,
+                    "filename": "ExpensesBot.Infrastructure/obj/Debug/net8.0/ExpensesBot.Infrastructure.AssemblyInfo.cs"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Infrastructure/obj/Debug/net8.0/ExpensesBot.Infrastructure.AssemblyInfoInputs.cache"
+                },
+                {
+                    "filename": "ExpensesBot.Infrastructure/obj/Debug/net8.0/ExpensesBot.Infrastructure.assets.cache",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ExpensesBot.Infrastructure/obj/Debug/net8.0/ExpensesBot.Infrastructure.csproj.AssemblyReference.cache",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Infrastructure/obj/Debug/net8.0/ExpensesBot.Infrastructure.csproj.CopyComplete"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Infrastructure/obj/Debug/net8.0/ExpensesBot.Infrastructure.csproj.CoreCompileInputs.cache"
+                },
+                {
+                    "blank": 0,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Infrastructure/obj/Debug/net8.0/ExpensesBot.Infrastructure.csproj.FileListAbsolute.txt"
+                },
+                {
+                    "filename": "ExpensesBot.Infrastructure/obj/Debug/net8.0/ExpensesBot.Infrastructure.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Infrastructure/obj/Debug/net8.0/ExpensesBot.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 1,
+                    "filename": "ExpensesBot.Infrastructure/obj/Debug/net8.0/ExpensesBot.Infrastructure.GlobalUsings.g.cs"
+                },
+                {
+                    "filename": "ExpensesBot.Infrastructure/obj/Debug/net8.0/ExpensesBot.Infrastructure.pdb",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ExpensesBot.Infrastructure/obj/Debug/net8.0/ref/ExpensesBot.Infrastructure.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "ExpensesBot.Infrastructure/obj/Debug/net8.0/refint/ExpensesBot.Infrastructure.dll",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 8,
+                    "code": 130,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Infrastructure/obj/ExpensesBot.Infrastructure.csproj.nuget.dgspec.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Infrastructure/obj/ExpensesBot.Infrastructure.csproj.nuget.g.props"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Infrastructure/obj/ExpensesBot.Infrastructure.csproj.nuget.g.targets"
+                },
+                {
+                    "blank": 24,
+                    "code": 1042,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Infrastructure/obj/project.assets.json"
+                },
+                {
+                    "blank": 1,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Infrastructure/obj/project.nuget.cache"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Infrastructure/obj/project.packagespec.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Infrastructure/obj/rider.project.model.nuget.info"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Infrastructure/obj/rider.project.restore.info"
+                },
+                {
+                    "blank": 5,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Infrastructure/Repositories/BalanceChangeRepository.cs"
+                },
+                {
+                    "blank": 5,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Infrastructure/Repositories/BalanceReportRequestRepository.cs"
+                },
+                {
+                    "blank": 5,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Infrastructure/Repositories/UserRepository.cs"
+                },
+                {
+                    "blank": 8,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Infrastructure/Services/CsvExporter.cs"
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Infrastructure/Services/IReportExporter.cs"
+                },
+                {
+                    "blank": 7,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Infrastructure/Services/ReportDataExporter.cs"
+                },
+                {
+                    "blank": 10,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "ExpensesBot.Infrastructure/Services/XlsxExporter.cs"
+                },
+                {
+                    "blank": 0,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "ExpensesBot.sln"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "Folder.DotSettings.user"
+                }
+            ]
+        }
+    ]
+}
