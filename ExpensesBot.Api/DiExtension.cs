@@ -1,4 +1,4 @@
-using ExpensesBot.Api.Services.MessageHandler.Handlers;
+using ExpensesBot.Api.Services.MessageHandler;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace ExpensesBot.Api;

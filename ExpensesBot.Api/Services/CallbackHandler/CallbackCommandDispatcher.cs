@@ -1,5 +1,4 @@
 using ErrorOr;
-using ExpensesBot.Api.Services.MessageHandler.Handlers;
 using ExpensesBot.Core.Commands;
 using ExpensesBot.Core.Enums;
 using ExpensesBot.Core.Interfaces;
@@ -57,6 +56,8 @@ public class CallbackCommandDispatcher
 
     private async Task<ErrorOr<Message>> ProcessResponse<T>(IHandlerOutput<T> response, string data, CallbackQuery query)
     {
+        await ConfirmCallbackAndDeleteMessage(query);
+        
         if (response.Result.IsError)
         {
             return response.Result.FirstError;
@@ -64,7 +65,8 @@ public class CallbackCommandDispatcher
 
         if (response.Result.Value is Stream stream)
         {
-            var _ = Enum.TryParse<ReportExportTypes>(data, out var type);
+
+            _ = Enum.TryParse<ReportExportTypes>(data, out var type);
 
             if (type == ReportExportTypes.Text)
             {
@@ -76,11 +78,17 @@ public class CallbackCommandDispatcher
             var inputFile = InputFile.FromStream(stream);
             return await _bot.SendDocument(query.Message!.Chat, inputFile); 
         }
-        else if (response.Result.Value is string str)
+        if (response.Result.Value is string str)
         {
             return await _bot.SendMessage(query.Message!.Chat, str); 
         }
 
         return Error.NotFound("", "Unsupported response type");
+    }
+
+    private async Task ConfirmCallbackAndDeleteMessage(CallbackQuery query)
+    {
+        await _bot.AnswerCallbackQuery(query.Id);
+        await _bot.DeleteMessage(query.Message!.Chat.Id, query.Message!.Id);
     }
 }

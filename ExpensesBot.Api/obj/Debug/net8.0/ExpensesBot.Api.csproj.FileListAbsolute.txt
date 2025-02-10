@@ -35,3 +35,4 @@
 /home/ildar/Documents/telegram/ExpensesBot.Api/bin/Debug/net8.0/System.Security.Cryptography.Pkcs.dll
 /home/ildar/Documents/telegram/ExpensesBot.Api/bin/Debug/net8.0/runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.dll
 /home/ildar/Documents/telegram/ExpensesBot.Api/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll
+/home/ildar/Documents/telegram/ExpensesBot.Api/obj/Debug/net8.0/ExpensesBot.Api.sourcelink.json

@@ -29,9 +29,13 @@ public class CommandReportRequestHandler : ICommandHandler<PureReportRequestComm
         {
             return CreateOutput(validationResult.FirstError);
         }
+        
 
         var (dateRange, category, userId) = validationResult.Value;
 
+        
+        _contextProvider.RegisterUserLanguage(userId, request.Language);
+        
         var balanceReportRequest = new BalanceReportRequest(userId, dateRange, category);
 
         await _reportRequestRepository.Add(balanceReportRequest);

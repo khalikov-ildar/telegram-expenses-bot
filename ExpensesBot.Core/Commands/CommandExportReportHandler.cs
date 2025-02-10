@@ -24,7 +24,7 @@ public class CommandExportReportHandler : ICommandHandler<PureExportReportComman
 
     public async Task<IHandlerOutput<Stream>> Handle(PureExportReportCommand request)
     {
-        var _ = Enum.TryParse<ReportExportTypes>(request.Type, out var type);
+        _ = Enum.TryParse<ReportExportTypes>(request.Type, out var type);
         
         var userId = _contextProvider.GetUserId();
 
@@ -32,6 +32,8 @@ public class CommandExportReportHandler : ICommandHandler<PureExportReportComman
         {
             return CreateOutput(userId.FirstError);
         }
+
+        var language = _contextProvider.GetUserLanguage(userId.Value);
         
         var reportRequest = await _reportRequestRepository.GetLastByUserId(userId.Value);
         

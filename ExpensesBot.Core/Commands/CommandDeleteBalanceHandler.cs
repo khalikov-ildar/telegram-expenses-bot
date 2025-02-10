@@ -3,6 +3,7 @@ using ExpensesBot.Api.Services.Common;
 using ExpensesBot.Api.Services.MessageHandler;
 using ExpensesBot.Core.Entities;
 using ExpensesBot.Core.Enums;
+using ExpensesBot.Core.Errors.Balance;
 using ExpensesBot.Core.Errors.User;
 using ExpensesBot.Core.Interfaces;
 using ExpensesBot.Core.Repositories;
@@ -28,46 +29,53 @@ public class CommandDeleteBalanceHandler : ICommandHandler<PureDeleteBalanceChan
 
     public async Task<IHandlerOutput<string>> Handle(PureDeleteBalanceChangeCommand request)
     {
+        
+        
         var parsedSuccessfully = MessageParser.TryParseChangeIdForDeleteFromString(
             _contextProvider.GetMessageText(), out var id);
 
         if (!parsedSuccessfully)
         {
-            return CreateOutput(Error.Validation("", "Incorrect id"));
+            return CreateOutput(BalanceErrors.BalanceChangeIdIsNotValid(request.Language));
         }
 
         var userId = _contextProvider.GetUserId();
 
         if (userId.IsError)
         {
-            return CreateOutput(UserErrors.UserObjectWasNotPopulated(request.Language));
+            return CreateOutput(UserErrors.UserIsNotInitialized(request.Language));
         }
+        
+        _contextProvider.RegisterUserLanguage(userId.Value, request.Language);
         
         var change = await _changeRepository.GetBalanceChangeById(id);
         if (change is null)
         {
-             return CreateOutput(Error.NotFound("", $"The balance change with id: \"{id}\" was not found"));
+             return CreateOutput(BalanceErrors.BalanceChangeWasNotFound(id));
         }
 
         if (userId != change.UserId)
         {
-            return CreateOutput(Error.Forbidden("", "You don't have permission to delete this balance change"));
+            return CreateOutput(UserErrors.DontHavePermissionForAction(request.Language));
         }
 
         var user = await _userRepository.GetUserById(userId.Value);
 
         if (user is null)
         {
-            return CreateOutput(Error.Unauthorized("", "You are unauthorized. Type /start to authorize"));
+            return CreateOutput(UserErrors.UserIsNotInitialized(request.Language));
         }
 
         var changingBalanceResult = user.RevertBalanceChange(change);
 
         if (!changingBalanceResult.IsError)
         {
-            return CreateOutput(ResponseMessages.BalanceChangeDeletedSuccessfully(request.Language));
+            await _userRepository.UpdateUser(user);
+            await _changeRepository.DeleteBalanceChangeById(id);
+            return CreateOutput(ResponseMessages.BalanceChangeDeletedWithNewBalance(user.Balance,request.Language));
         }
 
+        
         var deleteRequest = new BalanceChangeDeleteRequest(userId.Value, change.Id);
         await _deleteRequestRepository.SaveChangeDeleteRequest(deleteRequest);
 

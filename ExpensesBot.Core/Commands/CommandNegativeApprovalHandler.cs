@@ -3,6 +3,7 @@ using ExpensesBot.Api.Services.Common;
 using ExpensesBot.Core.Enums;
 using ExpensesBot.Core.Interfaces;
 using ExpensesBot.Core.Repositories;
+using ExpensesBot.Core.Responses;
 using ExpensesBot.Core.Services;
 
 namespace ExpensesBot.Core.Commands;
@@ -24,7 +25,7 @@ public class CommandNegativeApprovalHandler : ICommandHandler<PureNegativeApprov
 
     public async Task<IHandlerOutput<string>> Handle(PureNegativeApprovalCommand request)
     {
-        var _ = Enum.TryParse<NegativeBalanceChangeResponse>(request.Type, out var type);
+        _ = Enum.TryParse<NegativeBalanceChangeResponse>(request.Type, out var type);
         
         var userId = _contextProvider.GetUserId();
 
@@ -55,7 +56,7 @@ public class CommandNegativeApprovalHandler : ICommandHandler<PureNegativeApprov
         await _userRepository.UpdateUser(user);
         await _balanceChangeRepository.DeleteBalanceChangeById(deleteRequest.ChangeId);
 
-        return CreateOutput($"Balance change deleted, your new balance is: {user.Balance}");
+        return CreateOutput(ResponseMessages.BalanceChangeDeletedWithNewBalance(user.Balance, request.Language));
     }
     
     private static IHandlerOutput<string> CreateOutput(ErrorOr<string> result, bool needsCallback = false)

@@ -13,3 +13,4 @@
 /home/ildar/Documents/telegram/ExpensesBot.Infrastructure/obj/Debug/net8.0/refint/ExpensesBot.Infrastructure.dll
 /home/ildar/Documents/telegram/ExpensesBot.Infrastructure/obj/Debug/net8.0/ExpensesBot.Infrastructure.pdb
 /home/ildar/Documents/telegram/ExpensesBot.Infrastructure/obj/Debug/net8.0/ref/ExpensesBot.Infrastructure.dll
+/home/ildar/Documents/telegram/ExpensesBot.Infrastructure/obj/Debug/net8.0/ExpensesBot.Infrastructure.sourcelink.json

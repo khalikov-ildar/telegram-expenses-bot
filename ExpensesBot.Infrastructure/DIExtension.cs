@@ -16,6 +16,7 @@ public static class DiExtension
         services.AddSingleton<IBalanceChangeEditRepository, BalanceChangeEditRepository>();
         services.AddSingleton<IBalanceChangeDeleteRequestRepository, BalanceChangeDeleteRequestRepository>();
         services.AddSingleton<IReportDataExporter, ReportDataExporter>();
+        services.AddSingleton<ILanguageProvider, LanguageProvider>();
         services.AddScoped<IContextProvider, TelegramContextProvider>();
         return services;
     }

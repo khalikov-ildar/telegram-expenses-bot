@@ -9,6 +9,14 @@ public static class BalanceErrors
     public static Error BalanceMustBeGreaterThanChangeAmount(decimal balance, decimal changeAmount,
         Languages language = Languages.En) =>
         BalanceMustBeGreaterThanChangeAmountError.Create(balance, changeAmount, language);
+    
+    public static Error BalanceChangeIdIsNotValid(
+        Languages language = Languages.En) =>
+        BalanceChangeIdIsNotValidError.Create(language);
+    
+    public static Error BalanceChangeWasNotFound(Guid id,
+        Languages language = Languages.En) =>
+        BalanceChangeWasNotFoundError.Create(id,language);
 }
 
 internal static class BalanceMustBeGreaterThanChangeAmountError
@@ -22,4 +30,30 @@ internal static class BalanceMustBeGreaterThanChangeAmountError
 
         return Error.Validation(Code, language == Languages.En ? enMessage : ruMessage);
     }
+}
+
+internal static class BalanceChangeIdIsNotValidError
+{
+    private const string Code = "BalanceChangeIdIsNotValid";
+        
+    internal static Error Create( Languages language)
+    {
+        const string enMessage = $"Provided Id is of invalid format";
+        const string ruMessage = $"Предоставленный идентификатор не действителен";
+
+        return Error.Validation(Code, language == Languages.En ? enMessage : ruMessage);
+    }    
+}
+
+internal static class BalanceChangeWasNotFoundError
+{
+    private const string Code = "BalanceChangeIdIsNotValid";
+        
+    internal static Error Create(Guid id, Languages language)
+    {
+        var enMessage = $"The balance change with id: \"{id}\" was not found";
+        var ruMessage = $"Запись изменения баланса с идентификатором: \"{id}\" не найдена";
+
+        return Error.Validation(Code, language == Languages.En ? enMessage : ruMessage);
+    }    
 }

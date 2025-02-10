@@ -1,6 +1,5 @@
 using System.Data;
 using ErrorOr;
-using ExpensesBot.Api.Services.MessageHandler.Handlers;
 using ExpensesBot.Core.Commands;
 using ExpensesBot.Core.Enums;
 using ExpensesBot.Core.Interfaces;
@@ -124,7 +123,9 @@ public class MessageCommandDispatcher
             return await bot.SendMessage(message.Chat, output.Result.Value, ParseMode.Html);
         }
 
-        return await _callbackMapper.MapCallback(output.HandlerName, message.Chat, output.Result.Value);
+        var language = _contextProvider.GetUserLanguage(message.From!.Id);
+        
+        return await _callbackMapper.MapCallback(output.HandlerName, message.Chat, output.Result.Value, language);
     }
 
     private async Task<IHandlerOutput<string>> MapHandler(Message message)

@@ -42,7 +42,7 @@ public class CommandBalanceChangeHandler : ICommandHandler<PureBalanceChangeComm
 
         if (user is null)
         {
-            return CreateOutput(UserErrors.UserObjectWasNotPopulated(request.Language));
+            return CreateOutput(UserErrors.UserIsNotInitialized(request.Language));
         }
         
         var changeResult = user.ChangeBalance(balanceChange);

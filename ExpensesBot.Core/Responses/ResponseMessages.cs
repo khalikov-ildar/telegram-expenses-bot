@@ -66,4 +66,11 @@ public static class ResponseMessages
             ? "Balance change was deleted successfully"
             : "Запись удалена успешно";
     }
+
+    public static string BalanceChangeDeletedWithNewBalance(decimal balance, Languages language)
+    {
+        return language == Languages.En
+            ? $"Balance change deleted, your new balance is: {balance}"
+            : $"Запись удалена, ваш новый баланс: {balance}";
+    }
 }

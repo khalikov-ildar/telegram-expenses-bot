@@ -10,3 +10,4 @@
 /home/ildar/Documents/telegram/ExpensesBot.Core/obj/Debug/net8.0/ExpensesBot.Core.pdb
 /home/ildar/Documents/telegram/ExpensesBot.Core/obj/Debug/net8.0/ref/ExpensesBot.Core.dll
 /home/ildar/Documents/telegram/ExpensesBot.Core/obj/Debug/net8.0/ExpensesBot.Core.csproj.AssemblyReference.cache
+/home/ildar/Documents/telegram/ExpensesBot.Core/obj/Debug/net8.0/ExpensesBot.Core.sourcelink.json

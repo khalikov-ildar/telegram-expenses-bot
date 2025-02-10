@@ -3,6 +3,8 @@ using ExpensesBot.Api.Services.Common;
 using ExpensesBot.Api.Services.MessageHandler;
 using ExpensesBot.Core.Dtos;
 using ExpensesBot.Core.Enums;
+using ExpensesBot.Core.Errors.Balance;
+using ExpensesBot.Core.Errors.User;
 using ExpensesBot.Core.Interfaces;
 using ExpensesBot.Core.Repositories;
 using ExpensesBot.Core.Services;
@@ -37,12 +39,12 @@ public class CommandEditHandler : ICommandHandler<PureEditCommand, IHandlerOutpu
 
         if (change is null)
         {
-            return CreateOutput(Error.NotFound($"Change with Id {editPayload.ChangeId} was not found"));
+            return CreateOutput(BalanceErrors.BalanceChangeWasNotFound(editPayload.ChangeId, request.Language));
         }
 
         if (change.UserId != userId)
         {
-            return CreateOutput(Error.Forbidden($"You have no permissions to edit this change"));
+            return CreateOutput(UserErrors.DontHavePermissionForAction(request.Language));
         }
 
         change.Edit(editPayload.Category, editPayload.Amount);

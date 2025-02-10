@@ -27,10 +27,4 @@
       </Content>
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Services\Abstract\" />
-      <Folder Include="Services\CallbackHandler\Handlers\" />
-      <Folder Include="Services\Common\" />
-    </ItemGroup>
-
 </Project>
